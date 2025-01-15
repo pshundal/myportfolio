@@ -18,12 +18,20 @@ const projects = [
     live: "https://obys-rdq4kgbkt-prabhdeep-singh-hundals-projects.vercel.app/"  // Live site URL
   },
   {
-    name: "OBYS Agency Clone",
-    image: "/OBYS.png",
-    about: "This is clone of OBYS website with most all features",
+    name: "TicTacToe",
+    image: "/TTT.png",
+    about: "TicTacToe Game",
+    status: "completed",
+    github: "https://github.com/pshundal/tictactoe",  // GitHub URL
+    live: "https://tictactoe-two-murex.vercel.app/"  // Live site URL
+  },
+  {
+    name: "Youtube",
+    image: "/Youtube.png",
+    about: "Clone of YouTube",
     status: "ongoing",
-    github: "https://github.com/pshundal/obys",  // Leave empty for ongoing projects
-    live: "https://obys-nu.vercel.app/"  // Leave empty for ongoing projects
+    github: "",  // Leave empty for ongoing projects
+    live: ""  // Leave empty for ongoing projects
   }
 ];
 
