@@ -26,6 +26,14 @@ const projects = [
     live: "https://tictactoe-two-murex.vercel.app/"  // Live site URL
   },
   {
+    name: "ToDo App",
+    image: "/ToDo.png",
+    about: "TicTacToe Game",
+    status: "completed",
+    github: "https://github.com/pshundal//todo-app",  // GitHub URL
+    live: "https://todo-app-omega-beige.vercel.app/"  // Live site URL
+  },
+  {
     name: "Youtube",
     image: "/Youtube.png",
     about: "Clone of YouTube",
