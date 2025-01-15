@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 
 function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ function Navbar() {
           onClick={handleLogoClick} // Reload page on click
           className="text-3xl font-bold text-blue-600 cursor-pointer hover:text-blue-400"
         >
-          Hello, Welcome to my site!
+          Hello,Welcome to my site!
         </h1>
 
         {/* Mobile menu toggle */}
@@ -33,9 +34,9 @@ function Navbar() {
               stroke="currentColor"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 d="M4 6h16M4 12h16M4 18h16"
               />
             </svg>
@@ -46,25 +47,23 @@ function Navbar() {
         <nav className="hidden lg:flex lg:space-x-8">
           <ul className="flex flex-row space-x-8 text-lg font-semibold">
             <li>
-              <a href="#about" className="py-2 hover:text-blue-400 transition duration-300">
-                About
-              </a>
+              
             </li>
             <li>
-              <a href="#projects" className="py-2 hover:text-blue-400 transition duration-300">
+              <Link
+                to="projects"
+                smooth={true}
+                duration={500}
+                className="py-2 hover:text-blue-400 transition duration-300 cursor-pointer"
+              >
                 Projects
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="py-2 hover:text-blue-400 transition duration-300">
-                Contact
-              </a>
+              </Link>
             </li>
             {/* GitHub Link */}
             <li>
               <a
-                href="https://github.com/yourusername" // Replace with your GitHub username
-                className="py-2 px-4 border-2 border-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition duration-300"
+                href="https://github.com/pshundal" // Replace with your GitHub username
+                className="py-2 px-4 border-2 border-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition duration-300 cursor-pointer"
               >
                 GitHub
               </a>
@@ -86,24 +85,29 @@ function Navbar() {
           </div>
           <ul className="flex flex-col space-y-6 text-xl font-semibold text-center text-blue-600">
             <li>
-              <a href="#about" className="hover:text-blue-400 transition duration-300">
+              <Link
+                to="about"
+                smooth={true}
+                duration={500}
+                className="hover:text-blue-400 transition duration-300 cursor-pointer"
+              >
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#projects" className="hover:text-blue-400 transition duration-300">
+              <Link
+                to="projects"
+                smooth={true}
+                duration={500}
+                className="hover:text-blue-400 transition duration-300 cursor-pointer"
+              >
                 Projects
-              </a>
-            </li>
-            <li>
-              <a href="#contact" className="hover:text-blue-400 transition duration-300">
-                Contact
-              </a>
+              </Link>
             </li>
             <li>
               <a
                 href="https://github.com/yourusername" // Replace with your GitHub username
-                className="py-2 px-4 border-2 border-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition duration-300"
+                className="py-2 px-4 border-2 border-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition duration-300 cursor-pointer"
               >
                 GitHub
               </a>
