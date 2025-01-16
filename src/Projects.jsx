@@ -18,6 +18,14 @@ const projects = [
     live: "https://obys-rdq4kgbkt-prabhdeep-singh-hundals-projects.vercel.app/"  // Live site URL
   },
   {
+    name: "Refokus Project",
+    image: "/Refokus.png",
+    about: "Clone of Refukus website",
+    status: "completed",
+    github: "https://refokkus-cwsgft3vy-prabhdeep-singh-hundals-projects.vercel.app/",  // GitHub URL
+    live: "https://todo-app-omega-beige.vercel.app/"  // Live site URL
+  },
+  {
     name: "TicTacToe",
     image: "/TTT.png",
     about: "TicTacToe Game",
