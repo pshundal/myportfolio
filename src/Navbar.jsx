@@ -64,6 +64,7 @@ function Navbar() {
               <a
                 href="https://github.com/pshundal" // Replace with your GitHub username
                 className="py-2 px-4 border-2 border-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition duration-300 cursor-pointer"
+                target="_blank"
               >
                 GitHub
               </a>
