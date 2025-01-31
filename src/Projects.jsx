@@ -15,7 +15,7 @@ const projects = [
     about: "This is clone of OBYS website with most all features",
     status: "completed",
     github: "https://github.com/pshundal/obys",  // GitHub URL
-    live: "https://obys-rdq4kgbkt-prabhdeep-singh-hundals-projects.vercel.app/"  // Live site URL
+    live: "https://obys-nu.vercel.app/"  // Live site URL
   },
   {
     name: "Refokus Project",
