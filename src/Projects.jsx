@@ -7,7 +7,7 @@ const projects = [
     about: "This is current website",
     status: "completed",
     github: "https://github.com/pshundal/myportfolio",  // GitHub URL
-    live: "https://myportfolio-15usqtcom-prabhdeep-singh-hundals-projects.vercel.app/"  // Live site URL
+    live: "https://prabhdeephundal.vercel.app/"  // Live site URL
   },
   {
     name: "OBYS Agency Clone",
@@ -22,8 +22,8 @@ const projects = [
     image: "/Refokus.png",
     about: "Clone of Refukus website",
     status: "completed",
-    github: "https://refokkus-cwsgft3vy-prabhdeep-singh-hundals-projects.vercel.app/",  // GitHub URL
-    live: "https://todo-app-omega-beige.vercel.app/"  // Live site URL
+    github: "https://github.com/pshundal/refokkus",  // GitHub URL
+    live: "https://refokkus-cwsgft3vy-prabhdeep-singh-hundals-projects.vercel.app"  // Live site URL
   },
   {
     name: "TicTacToe",
@@ -44,7 +44,7 @@ const projects = [
   {
     name: "Youtube",
     image: "/Youtube.png",
-    about: "Clone of YouTube",
+    about: "Work for this project is still under development",
     status: "ongoing",
     github: "",  // Leave empty for ongoing projects
     live: ""  // Leave empty for ongoing projects
